@@ -1,8 +1,6 @@
 import React, {useState} from "react";
 
-function SidebarIcon({iconIndex}){
-
-    const [isSelected, setIsSelected] = useState(false);
+function SidebarIcon({iconIndex, isSelected}){
 
     const icons = [
         (
@@ -32,7 +30,7 @@ function SidebarIcon({iconIndex}){
                     d="M13 15L0 7v9c0 .355.189.685.496.864L13 24v-9z"
                 />
                 <path
-                    className={`fill-current ${ isSelected ? 'text-indigo-500' : 'text-slate-600'}`}
+                    className={`fill-current ${ isSelected? 'text-indigo-500' : 'text-slate-600'}`}
                     d="M13 15.047V24l10.573-7.181A.999.999 0 0024 16V8l-11 7.047z"
                 />
             </svg>
