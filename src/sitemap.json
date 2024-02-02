@@ -5,7 +5,7 @@
       "pages" : [
         {
           "title" : "selector",
-          "pageLink" : "/pages/JQuery/selector",
+          "pageLink" : "JQuerySelector",
           "description" : ""
         }
       ]
@@ -15,12 +15,7 @@
       "pages" : [
         {
           "title" : "도커설치",
-          "pageLink" : "/pages/Docker/installDocker",
-          "description" : ""
-        },
-        {
-          "title" : "도커설치",
-          "pageLink" : "/pages/Docker/installDocker",
+          "pageLink" : "DockerInstall",
           "description" : ""
         }
       ]

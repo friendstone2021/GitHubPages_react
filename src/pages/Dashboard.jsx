@@ -16,7 +16,7 @@ function Dashboard() {
       {
         siteMap.menuGroup.map((menu) => (
             menu.pages.map((page, pageIndex) => (
-                <DashboardCard key={page.title+pageIndex} title={menu.title+"-"+page.title} link={page.pageLink} description={page.description}/>
+                <DashboardCard key={page.title+pageIndex} title={menu.title+"-"+page.title} link={"/pages/"+page.pageLink} description={page.description}/>
             ))
         ))
       }
