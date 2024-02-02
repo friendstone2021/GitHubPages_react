@@ -205,8 +205,8 @@ function JQuerySelector() {
             <div className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                 // .is() 는 조건에 맞는지 판별하여 boolean 값을 반환한다.<br/>
                 $("div").children().is("p") //div의 자식 element 중 p가 있는지, 바로 하위의 자식노드만 검사함<br/>
-                $("checkbox").is(":checked") //checkbox가 체크되어 있는지
-                $("div").is(".className") //div의 class에 className이 포함되어 있는지
+                $("checkbox").is(":checked") //checkbox가 체크되어 있는지<br/>
+                $("div").is(".className") //div의 class에 className이 포함되어 있는지<br/>
             </div>
         </div>
     )
