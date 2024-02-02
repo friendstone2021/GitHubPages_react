@@ -23,8 +23,8 @@ function JQuerySelector() {
             <h4 className="h4 m-2 mt-5">- 자식 선택 (바로 하위 element)</h4>
             <div className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                 //selector는 위에서 말한 모든 선택자<br/>
-                $('selector > selector')<br/>
-                $('selector > selector > selector')
+                $('selector &gt; selector')<br/>
+                $('selector &gt; selector &gt; selector')
             </div>
             <h4 className="h4 m-2 mt-5">- 후손 선택 (레벨에 관계없는 모든 하위 element)</h4>
             <div className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
