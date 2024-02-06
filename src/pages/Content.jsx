@@ -19,7 +19,6 @@ function Content() {
         content = <ReactStart/>;
     }
 
-
     return (
         <div className="clear-both w-full">
             {content}
