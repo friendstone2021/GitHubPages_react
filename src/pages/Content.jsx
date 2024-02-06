@@ -12,7 +12,7 @@ function Content() {
 
     let content;
     if(pageName === "JQuerySelector"){
-        content = (<JQuerySelector/>);
+        content = <JQuerySelector/>;
     }else if(pageName === "DockerInstall"){
         content = <DockerInstall/>;
     }else if(pageName === "ReactStart"){

@@ -55,13 +55,10 @@ function App() {
                 </div>
 
               </div>
-              <Suspense fallback={<div>Loading...</div>}>
               <Routes>
-
-                  <Route exact path="/" element={<Dashboard />} />
-                  <Route path="/pages/:pageName" element={<Content />}/>
+                <Route exact path="/" element={<Dashboard />} />
+                <Route path="/pages/:pageName" element={<Content />}/>
               </Routes>
-              </Suspense>
             </div>
           </main>
 
