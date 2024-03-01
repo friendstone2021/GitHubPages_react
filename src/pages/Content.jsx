@@ -3,6 +3,7 @@ import {Route, Router, useParams} from "react-router-dom";
 import JQuerySelector from "../components/contents/JQuery/JQuerySelector.jsx";
 import DockerInstall from "../components/contents/Docker/DockerInstall.jsx";
 import ReactStart from "../components/contents/React/ReactStart.jsx";
+import LinuxCommand from "../components/contents/Linux/LinuxCommand.jsx"
 function Content() {
 
     const params = useParams();
@@ -17,6 +18,8 @@ function Content() {
         content = <DockerInstall/>;
     }else if(pageName === "ReactStart"){
         content = <ReactStart/>;
+    }else if(pageName === "LinuxCommand"){
+        content = <LinuxCommand/>;
     }
 
     return (

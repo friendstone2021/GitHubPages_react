@@ -6,7 +6,7 @@ import img_reactStart4 from "../../../images/React/ReactStart4.png";
 
 function ReactStart(){
     return (
-        <div className="clear-both w-full">
+        <main className="clear-both w-full">
             <h1 className="h1 m-3">React 시작하기</h1>
             <h4 className="h4 m-2 mt-5">- 준비</h4>
             <div className="bg-white text-black m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
@@ -24,7 +24,7 @@ function ReactStart(){
                 </div>
             </div>
             <h4 className="h4 m-2 mt-5">- 리액트 프로젝트 생성</h4>
-            <div className="bg-white text-black m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+            <ul className="bg-white text-black m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                 npx로 리액트 프로젝트를 생성하자.<br/>
                 npx를 안쓰고 프로젝트를 생성할 수도 있겠지만 그러면 설정파일 하나하나 모듈 하나하나를 생성해줘야 하므로 기본 프로젝트를 깔아준 뒤 필요없는 것들을 지우는 것이 훨씬 효율적이다.<br/>
                 <div className="bg-black text-white m-0 p-2 w-full">
@@ -33,49 +33,57 @@ function ReactStart(){
                 <br/>
                 이렇게 하면 세가지 정도의 케이스가 생길 수 있다.<br/>
                 <br/>
-                <span className="font-bold">Case 1. 프로젝트가 그냥 설치된다.</span><br/>
-                <br/>
-                <span className="font-bold">Case 2. create-react-app가 설치되지 않았다고 설치할거냐고 묻는다.</span><br/>
-                <div className="bg-black text-white m-0 p-2 w-full">
-                    # <span className="text-blue-500">npx create-react-app [생성할 프로젝트 명]</span><br/>
-                    Need to install the following packages:<br/>
-                    create-react-app@5.0.1<br/>
-                    Ok to proceed? (y)<span className="text-blue-500">y</span><br/>
-                </div>
-                설치하겠다고 y를 입력하면 create-react-app를 설치하고 리액트 프로젝트도 생성한다.<br/>
-                <br/>
-                <span className="font-bold">Case 3. 오류가 발생하며 설치되지 않는다.</span><br/>
-                <div className="bg-black text-white m-0 p-2 w-full">
-                    # <span className="text-blue-500">npx create-react-app [생성할 프로젝트 명]</span><br/>
-                    npm ERR! code ENOENT<br/>
-                    npm ERR! syscall lstat<br/>
-                    npm ERR! path C:\Users\******\AppData\Roaming\npm<br/>
-                    npm ERR! errno -4058<br/>
-                    npm ERR! enoent ENOENT: no such file or directory, lstat 'C:\Users\******\AppData\Roaming\npm'<br/>
-                    npm ERR! enoent This is related to npm not being able to find a file.<br/>
-                    npm ERR! enoent<br/>
-                    <br/>
-                    npm ERR! A complete log of this run can be found in: C:\Users\******\AppData\Local\npm-cache\_logs\2024-02-05T08_22_35_942Z-debug-0.log<br/>
-                </div>
-                이 경우는 create-react-app가 설치된 경로가 변경되었거나, 삭제되었거나, 잘못된 경로에 설치된 경우이다.<br/>
-                <br/>
-                create-react-app를 uninstall 후 다시 install 해주면 된다.<br/>
-                <div className="bg-black text-white m-0 p-2 w-full">
-                    # <span className="text-blue-500">npm uninstall -g create-react-app</span><br/>
-                    <br/>
-                    up to date in 418ms<br/>
-                    # <span className="text-blue-500">npm install -g create-react-app</span><br/>
-                    npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.<br/>
-                    <br/>
-                    added 67 packages in 3s<br/>
-                    <br/>
-                    5 packages are looking for funding<br/>
-                    run `npm fund` for details<br/>
-                    # <span className="text-blue-500">npx create-react-app [생성할 프로젝트 명]</span><br/>
-                </div>
-                <br/>
+                <li className="font-bold">Case 1. 프로젝트가 그냥 설치된다.
+                </li>
+                <li className="font-bold">Case 2. create-react-app가 설치되지 않았다고 설치할거냐고 묻는다.<br/>
+                    <div className="bg-black text-white m-0 p-2 w-full">
+                        # <span className="text-blue-500">npx create-react-app [생성할 프로젝트 명]</span><br/>
+                        Need to install the following packages:<br/>
+                        create-react-app@5.0.1<br/>
+                        Ok to proceed? (y)<span className="text-blue-500">y</span><br/>
+                    </div>
+                    설치하겠다고 y를 입력하면 create-react-app를 설치하고 리액트 프로젝트도 생성한다.
+                </li>
+                <li className="font-bold">Case 3. 오류가 발생하며 설치되지 않는다.<br/>
+                    <ul>
+                        <li>
+                            <div className="bg-black text-white m-0 p-2 w-full">
+                                # <span className="text-blue-500">npx create-react-app [생성할 프로젝트 명]</span><br/>
+                                npm ERR! code ENOENT<br/>
+                                npm ERR! syscall lstat<br/>
+                                npm ERR! path C:\Users\******\AppData\Roaming\npm<br/>
+                                npm ERR! errno -4058<br/>
+                                npm ERR! enoent ENOENT: no such file or directory, lstat 'C:\Users\******\AppData\Roaming\npm'<br/>
+                                npm ERR! enoent This is related to npm not being able to find a file.<br/>
+                                npm ERR! enoent<br/>
+                                <br/>
+                                npm ERR! A complete log of this run can be found in: C:\Users\******\AppData\Local\npm-cache\_logs\2024-02-05T08_22_35_942Z-debug-0.log<br/>
+                            </div>
+                            이 경우는 create-react-app가 설치된 경로가 변경되었거나, 삭제되었거나, 잘못된 경로에 설치된 경우이다.<br/>
+                            <br/>
+                            create-react-app를 uninstall 후 다시 install 해주면 된다.<br/>
+                            <div className="bg-black text-white m-0 p-2 w-full">
+                                # <span className="text-blue-500">npm uninstall -g create-react-app</span><br/>
+                                <br/>
+                                up to date in 418ms<br/>
+                                # <span className="text-blue-500">npm install -g create-react-app</span><br/>
+                                npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.<br/>
+                                <br/>
+                                added 67 packages in 3s<br/>
+                                <br/>
+                                5 packages are looking for funding<br/>
+                                run `npm fund` for details<br/>
+                                # <span className="text-blue-500">npx create-react-app [생성할 프로젝트 명]</span><br/>
+                            </div>
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+
+                </li>
                 여기까지 완료되었다면 [생성할 프로젝트명]으로 디렉토리가 생기고 안에 리액트 기본 소스들이 추가되었을 것이다.<br/>
-            </div>
+            </ul>
             <h4 className="h4 m-2 mt-5">- 리액트 소스 보기</h4>
             <div className="bg-white text-black m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                 리액트 소스는 IDE를 크게 따지지 않는다.<br/>
@@ -108,7 +116,7 @@ function ReactStart(){
 
 
             </div>
-        </div>
+        </main>
     );
 }
 

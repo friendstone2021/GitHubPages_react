@@ -26,7 +26,17 @@
         {
           "title" : "React 시작하기",
           "pageLink" : "ReactStart",
-          "description" : "React 시작하기"
+          "description" : ""
+        }
+      ]
+    },
+    {
+      "title" : "Linux",
+      "pages" : [
+        {
+          "title" : "리눅스 기본 명령어",
+          "pageLink" : "LinuxCommand",
+          "description" : ""
         }
       ]
     }
