@@ -39,6 +39,26 @@
           "description" : ""
         }
       ]
+    },
+    {
+      "title" : "Html",
+      "pages" : [
+        {
+          "title" : "Semantic tag",
+          "pageLink" : "SemanticTag",
+          "description" : ""
+        }
+      ]
+    },
+    {
+      "title" : "BuildTool",
+      "pages" : [
+        {
+          "title" : "Build Tool",
+          "pageLink" : "BuildTool",
+          "description" : ""
+        }
+      ]
     }
   ]
 }
