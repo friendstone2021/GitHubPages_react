@@ -4,6 +4,8 @@ import JQuerySelector from "../components/contents/JQuery/JQuerySelector.jsx";
 import DockerInstall from "../components/contents/Docker/DockerInstall.jsx";
 import ReactStart from "../components/contents/React/ReactStart.jsx";
 import LinuxCommand from "../components/contents/Linux/LinuxCommand.jsx"
+import SemanticTag from "../components/contents/Html/SemanticTag.jsx";
+import BuildTool from "../components/contents/BuildTool/BuildTool.jsx";
 function Content() {
 
     const params = useParams();
@@ -20,6 +22,10 @@ function Content() {
         content = <ReactStart/>;
     }else if(pageName === "LinuxCommand"){
         content = <LinuxCommand/>;
+    }else if(pageName === "SemanticTag") {
+        content = <SemanticTag/>;
+    }else if(pageName === "BuildTool"){
+        content = <BuildTool/>;
     }
 
     return (

@@ -11,7 +11,7 @@ function LinuxCommand(){
             <ul>
                 <li>
                     <h4 className="h4 m-2 mt-5">- cd : 디렉토리 이동</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -48,11 +48,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- ls,ll : 파일목록 조회</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -129,11 +129,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- pwd : 현재경로</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -154,11 +154,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- rm : 파일/디렉토리 삭제</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -199,11 +199,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- cp : 파일/디렉토리 복사</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -244,11 +244,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- touch : 빈 파일 생성</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -269,11 +269,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- mv : 파일/디렉토리 이동, 이름변경</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -310,11 +310,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- mkdir : 디렉토리 생성</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -339,11 +339,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- rmdir : 디렉토리 삭제</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -364,11 +364,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- cat : 파일내용 출력</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -445,11 +445,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- head,tail : 파일 앞 10줄 또는 마지막 10줄 출력</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -478,11 +478,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- more,less : 파일을 페이지 별 출력</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -511,11 +511,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- file : 파일종류</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -553,11 +553,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- clear : 화면지움</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -570,11 +570,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- du : 저장공간 사용량 조회</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -611,11 +611,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- ftp, lftp, scp, sftp : ftp 파일 업로드/다운로드</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -664,11 +664,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- chmod : 파일/디렉토리 권한변경</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -735,11 +735,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- alias : 명령어 축약 지정</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -791,11 +791,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- who : 로그인한 사용자 목록</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -856,11 +856,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- which/whereis : 소스/실행파일/매뉴얼 등의 위치</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -889,11 +889,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- top : 현재 리소스 사용량</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -991,11 +991,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- mount : 장치연결</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -1038,7 +1038,7 @@ function LinuxCommand(){
                                     </td>
                                 </tr>
                                 <tr className="border-collapse border-b border-slate-500">
-                                    <td colspan="2">adfs,
+                                    <td colSpan="2">adfs,
                                         affs, autofs, coda, coherent, cramfs, devpts, efs, ext, ext2, ext3,
                                         hfs, hpfs, iso9660, jfs, minix, msdos, ncpfs, nfs, ntfs, proc, qnx4,
                                         ramfs, reiserfs, romfs, smbfs, sysv, tmpfs, udf, ufs, umsdos, vfat,
@@ -1061,11 +1061,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- halt/poweroff/reboot/shutdown/init : 시스템종료</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -1106,11 +1106,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- find : 키워드로 파일 검색</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -1222,11 +1222,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- ps : 현재 동작중인 프로세스</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -1328,11 +1328,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- kill : 프로세스 강제종료</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -1610,11 +1610,11 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
                 <li>
                     <h4 className="h4 m-2 mt-5">- ln : 파일/디렉토리 하드/심볼릭 링크</h4>
-                    <p className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
+                    <figure className="bg-black text-white m-1 p-2 ring-2 ring-sky-300 ring-inset w-full">
                         <table className="border-0 w-full">
                             <colgroup>
                                 <col className="w-1/2"/>
@@ -1643,7 +1643,7 @@ function LinuxCommand(){
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                    </figure>
                 </li>
             </ul>
 
