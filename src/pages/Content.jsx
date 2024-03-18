@@ -6,6 +6,7 @@ import ReactStart from "../components/contents/React/ReactStart.jsx";
 import LinuxCommand from "../components/contents/Linux/LinuxCommand.jsx"
 import SemanticTag from "../components/contents/Html/SemanticTag.jsx";
 import BuildTool from "../components/contents/BuildTool/BuildTool.jsx";
+import GoogleMap from "../components/contents/GoogleMap/GoogleMap.jsx";
 function Content() {
 
     const params = useParams();
@@ -26,6 +27,8 @@ function Content() {
         content = <SemanticTag/>;
     }else if(pageName === "BuildTool"){
         content = <BuildTool/>;
+    }else if(pageName === "GoogleMap"){
+        content = <GoogleMap/>;
     }
 
     return (

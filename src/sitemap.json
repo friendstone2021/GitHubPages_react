@@ -51,6 +51,16 @@
       ]
     },
     {
+      "title" : "GoogleMap",
+      "pages" : [
+        {
+          "title" : "Google Map",
+          "pageLink" : "GoogleMap",
+          "description" : ""
+        }
+      ]
+    },
+    {
       "title" : "BuildTool",
       "pages" : [
         {
