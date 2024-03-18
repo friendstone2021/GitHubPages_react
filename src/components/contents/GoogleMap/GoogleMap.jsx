@@ -6,22 +6,9 @@ import img_4 from "../../../images/GoogleMap/GoogleMap_4.png";
 import img_5 from "../../../images/GoogleMap/GoogleMap_5.png";
 import img_6 from "../../../images/GoogleMap/GoogleMap_6.png";
 import img_7 from "../../../images/GoogleMap/GoogleMap_7.png";
+import img_8 from "../../../images/GoogleMap/GoogleMap_8.png";
 
 function GoogleMap(){
-
-    const mapRef = useRef(null);
-
-    const initMap = useCallback(() => {
-       new window.google.maps.Map(mapRef.current,{
-            center: { lat: 37.55140, lng: 126.9754726 },
-            zoom: 8,
-       });
-    }, [mapRef]);
-
-    useEffect(() => {
-        initMap();
-    }, [initMap]);
-
     return (
         <section className="clear-both w-full">
             <h1 className="h1 m-3">구글맵 API</h1>
@@ -90,6 +77,7 @@ function GoogleMap(){
                             npm install @googlemaps/react-wrapper<br/>
                             <br/>
                             2. index.html에 google map api 설정 추가<br/>
+                            (단, 깃허브에 배포는 하지 말것, 테스트용 API Key를 공개 레파지토리에 올리면 경고메일이 온다.)
                             <br/>
                             &lt;script async src="https://maps.googleapis.com/maps/api/js?key=발급받은key값&callback=initMap"&gt;&lt;/script&gt;<br/>
                             <br/>
@@ -116,12 +104,8 @@ function GoogleMap(){
                             &nbsp;&nbsp;&nbsp;&nbsp;ref=&#123;mapRef&#125;<br/>
                             &gt;&lt;/div&gt;<br/>
                         </p>
-                        <figure>
-                            <div
-                                className={"map"}
-                                style={{width:"100%", height:"500px"}}
-                                ref={mapRef}
-                            ></div>
+                        <figure className="bg-white text-black m-1 p-2 ring-2 ring-sky-300 ring-inset w-full grid place-items-center">
+                            <img className="w-9/12" src={img_8}/><br/>
                         </figure>
                     </article>
                 </li>
