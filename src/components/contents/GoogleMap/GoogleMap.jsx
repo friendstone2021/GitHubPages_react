@@ -89,7 +89,11 @@ function GoogleMap(){
                             <br/>
                             npm install @googlemaps/react-wrapper<br/>
                             <br/>
-                            2. 리액트 Hook 설정<br/>
+                            2. index.html에 google map api 설정 추가<br/>
+                            <br/>
+                            &lt;script async src="https://maps.googleapis.com/maps/api/js?key=발급받은key값&callback=initMap"&gt;&lt;/script&gt;<br/>
+                            <br/>
+                            3. 리액트 Hook 설정<br/>
                             <br/>
                             const mapRef = useRef(null);<br/>
                             <br/>
@@ -104,7 +108,7 @@ function GoogleMap(){
                             &nbsp;&nbsp;&nbsp;&nbsp;    initMap();<br/>
                             &#125;, [initMap]);<br/>
                             <br/>
-                            3. 지도 표시할 공간 설정<br/>
+                            4. 지도 표시할 공간 설정<br/>
                             <br/>
                             &lt;div<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;className=&#123;"map"&#125;<br/>
